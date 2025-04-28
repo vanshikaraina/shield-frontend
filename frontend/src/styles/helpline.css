@@ -1,0 +1,36 @@
+.emergency-ticker-wrapper {
+    overflow: hidden;
+    background-color: #ffe7cc;
+    border-top: 2px solid #fbbf24;
+    border-bottom: 2px solid #fbbf24;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+    position: relative;
+    z-index: 1000;
+    margin-bottom: 20px;
+  }
+  
+  .emergency-ticker-track {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 10px 0;
+    animation: scroll-left 25s linear infinite;
+  }
+  
+  .emergency-ticker-track span {
+    display: inline-block;
+    padding-right: 3rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #b45309;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  

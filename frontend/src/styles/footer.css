@@ -1,0 +1,67 @@
+.footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  .footer-logo h2 {
+    font-size: 2rem;
+    margin: 0;
+    color: white;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  }
+  
+  .footer-about,
+  .footer-contact {
+    margin-right: 40px;
+  }
+  
+  .footer-about p,
+  .footer-contact p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .footer-about h4,
+  .footer-contact h4,
+  .footer-helplines h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-helplines ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-helplines li {
+    font-size: 1rem;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    font-size: 1rem;
+    color: #bbb;
+  }
+  
+  /* Highlight class for special terms */
+  .highlight {
+    color: #ff6600;
+    font-weight: bold;
+  }
+  

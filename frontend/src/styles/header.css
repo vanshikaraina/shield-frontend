@@ -1,0 +1,39 @@
+.main-header {
+    background: linear-gradient(to right, #4a90e2, #0071bc);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .header-content {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .header-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .header-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .header-buttons button {
+    background-color: white;
+    color: #0071bc;
+    border: none;
+    padding: 12px 20px;
+    margin: 0 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header-buttons button:hover {
+    background-color: #e1ecf4;
+  }
+  

@@ -1,0 +1,42 @@
+.issue-reporting-page {
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .issue-reporting-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #f7f7f7;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .issue-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  .issue-form input,
+  .issue-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .issue-form .submit-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .issue-form .submit-btn:hover {
+    background: #0056b3;
+  }
